@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta Malar", sans-serif;
+}
+
+body{
+    background-color: #ebf5bb;
+    height: 100%;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btn-contato button{
+    padding: 8px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #efff13;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-curriculo button{
+    align-items: center;
+    justify-content: center;
+    padding: 8px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #efff13;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2{
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 0px 0px 10px #00000050;
+}
+
+header{
+    padding: 70px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+header a{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8px ;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #efff13;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+    
+}   
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #efff13;
+    transform: scale(1.05);
+}
+
+.btn-curriculo button:hover{
+    box-shadow: 0px 0px 8px #efff13;
+    transform: scale(1.05);
+}
+
+section.topo-do-site{
+    padding: 40px 4%;
+
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+.topo-do-site h1{
+    font-size: 44px;
+    line-height: 40px;
+}
+
+.topo-do-site p{
+    font-size: 22px;
+    line-height: 40px;
+    color: black;
+}
+
+.txt-topo-site p{
+    font-size: 32px;
+    line-height: 40px;
+    color: black;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #efff13;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.btn-contato{
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+section.areas{
+    padding: 2px 4%;
+    justify-content: space-around;
+}
+
+section.areas-box{
+    padding: 2px 4%;
+    justify-content: space-around;
+}
+
+section.areas .flex{
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.areas .areas-box{
+    color: #efff1380;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 1px #efff1366;
+    margin-top: 40px;
+    transition: 300ms;
+    justify-content: space-around;
+    z-index: 1;
+    background: #00000020
+}
+
+.areas .areas-box:hover{
+    transform: scale (1.05);
+    box-shadow: 0 0 16px #efff1398;
+    justify-content: space-around;
+}
+
+.areas .areas-box i{
+    font-size: 140px;
+    color: #efff13;
+    justify-content: space-around;
+}
+
+.areas .areas-box button{
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #efff13;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+.menu-desktop{
+    margin-right: 25vw;
+}
+li{
+    padding: 100px;
+    gap: 100px;
+}
+
+a{
+    z-index: 2;
+}
+
+.atividades{
+    display: flex;
+    flex-direction: column;
+    justify-content: start !important;
+    color: #000000 !important;
+    flex: 0 1 350px;
+    min-width: 350px;
+    align-items: center;
+}
+
+.atividades > h3{
+    font-size: 32px;
+    
+}
+
+.interface > h3{
+    margin-top: 4rem;
+    font-size: 32px;
+    text-align: center;
+}
+
+.atividades > a > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+a:visited, a:link{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.atividades img{
+    margin-top: 1.6rem;
+}
